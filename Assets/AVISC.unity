@@ -353,7 +353,7 @@ PrefabInstance:
     - target: {fileID: 7816290271677715172, guid: bc8cfa6f3ca961e44a60ab75a006800e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7816290271677715172, guid: bc8cfa6f3ca961e44a60ab75a006800e,
         type: 3}
@@ -629,15 +629,15 @@ MonoBehaviour:
   LeftCalvicle: {fileID: 949311993}
   RightCalvicle: {fileID: 1079410954}
   _speed: 12
-  flyPower: 150
+  flyPower: 50
   torquePower: 4
   formode: 5
   UpLeftKey: 97
   DownLeftKey: 122
   UpRightKey: 115
   DownRightKey: 120
-  LeftJoystick: {fileID: 1481158528}
-  RightJoystick: {fileID: 1166963182}
+  LeftJoystick: {fileID: 1131329286}
+  RightJoystick: {fileID: 703967538}
   JoystickBound: 0.00001
   MinTimeBetweenjump: 1.5
 --- !u!95 &712672247
@@ -1049,18 +1049,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1454309018}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1166963182 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11467636, guid: 7973d81b61b491640b7a0d00c9de83d3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1454309018}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77624f28614e33247a9ad124a2d27f78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1454309018
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1290,24 +1278,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 22406132, guid: 7973d81b61b491640b7a0d00c9de83d3,
     type: 3}
   m_PrefabInstance: {fileID: 501877571}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1481158528 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11467636, guid: 7973d81b61b491640b7a0d00c9de83d3,
-    type: 3}
-  m_PrefabInstance: {fileID: 501877571}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77624f28614e33247a9ad124a2d27f78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1786918124 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8221951039245010629, guid: 6358c33619a495341816807cc8ce61c8,
-    type: 3}
-  m_PrefabInstance: {fileID: 2125986398}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1837126985
 PrefabInstance:
@@ -1551,6 +1521,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BenPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 8218772900431746867, guid: 6358c33619a495341816807cc8ce61c8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8221951039245010629, guid: 6358c33619a495341816807cc8ce61c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -1629,7 +1604,7 @@ PrefabInstance:
         type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1786918124}
+      objectReference: {fileID: 712672252}
     - target: {fileID: 3252190489784569876, guid: d39c09b5b7f88a3439115b7b7df2d7fe,
         type: 3}
       propertyPath: offsetPosition.x
