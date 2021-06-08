@@ -629,7 +629,7 @@ MonoBehaviour:
   LeftCalvicle: {fileID: 949311993}
   RightCalvicle: {fileID: 1079410954}
   _speed: 12
-  flyPower: 90
+  flyPower: 150
   torquePower: 4
   formode: 5
   UpLeftKey: 97
@@ -699,7 +699,7 @@ MonoBehaviour:
   NumsForEachPrefab: 05000000
   player: {fileID: 712672252}
   timeToInit: 3
-  radius: 10
+  radius: 30
 --- !u!850595691 &745350043
 LightingSettings:
   m_ObjectHideFlags: 0
