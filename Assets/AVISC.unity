@@ -652,11 +652,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19a4cfc167f6bf46af9e1534392ecb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boost: 10
-  rotatePower: 10
+  ShiftPower: 10
+  rotatePower: 40
   LeftCalvicle: {fileID: 0}
   RightCalvicle: {fileID: 0}
-  _speed: 10
+  _speed: 6
   LeftJoystick: {fileID: 1131329286}
   RightJoystick: {fileID: 703967538}
   JoystickBound: 0.26
