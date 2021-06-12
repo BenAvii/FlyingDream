@@ -207,17 +207,17 @@ PrefabInstance:
     - target: {fileID: 7813116527556428562, guid: bc8cfa6f3ca961e44a60ab75a006800e,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7813116527556428562, guid: bc8cfa6f3ca961e44a60ab75a006800e,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7813116527556428562, guid: bc8cfa6f3ca961e44a60ab75a006800e,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7813116527556428562, guid: bc8cfa6f3ca961e44a60ab75a006800e,
         type: 3}
@@ -227,7 +227,7 @@ PrefabInstance:
     - target: {fileID: 7813116527556428562, guid: bc8cfa6f3ca961e44a60ab75a006800e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 50.03
+      value: 50.28
       objectReference: {fileID: 0}
     - target: {fileID: 7813116527556428562, guid: bc8cfa6f3ca961e44a60ab75a006800e,
         type: 3}
@@ -624,7 +624,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 149578741}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &712672254
+--- !u!114 &712672253
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -633,17 +633,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 712672245}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e19a4cfc167f6bf46af9e1534392ecb6, type: 3}
+  m_Script: {fileID: 11500000, guid: 1ef3b5193d8abb042b0d95a960fe80df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  regularSpeed: 10
   ShiftPower: 10
-  rotatePower: 20
+  rotatePower: 15
   LeftCalvicle: {fileID: 0}
   RightCalvicle: {fileID: 0}
-  _speed: 1
-  LeftJoystick: {fileID: 0}
-  RightJoystick: {fileID: 0}
-  JoystickBound: 0.26
+  _speed: 14
+  Joystick: {fileID: 2023610238}
+  JoystickBound: 0.0000001
   MinTimeBetweenjump: 2.5
 --- !u!850595691 &745350043
 LightingSettings:
@@ -1168,7 +1168,7 @@ PrefabInstance:
     - target: {fileID: 3881087803549984436, guid: ec536a7718376554185e4a856d5ae230,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 471.6777
+      value: 900
       objectReference: {fileID: 0}
     - target: {fileID: 3881087803549984436, guid: ec536a7718376554185e4a856d5ae230,
         type: 3}
@@ -1213,7 +1213,7 @@ PrefabInstance:
     - target: {fileID: 3881087803549984436, guid: ec536a7718376554185e4a856d5ae230,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 3881087803549984436, guid: ec536a7718376554185e4a856d5ae230,
         type: 3}
@@ -1239,6 +1239,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Variable Joystick
+      objectReference: {fileID: 0}
+    - target: {fileID: 3881087803549984439, guid: ec536a7718376554185e4a856d5ae230,
+        type: 3}
+      propertyPath: axisOptions
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3881087803549984439, guid: ec536a7718376554185e4a856d5ae230,
+        type: 3}
+      propertyPath: handleRange
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3881087803549984439, guid: ec536a7718376554185e4a856d5ae230,
         type: 3}
@@ -1329,9 +1339,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -68, y: 0}
-  m_SizeDelta: {x: 72.36218, y: 67.9506}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -224, y: -37}
+  m_SizeDelta: {x: 72.36218, y: 16.9506}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1806750473
 MonoBehaviour:
@@ -1714,6 +1724,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1908271419}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2023610238 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3881087803549984439, guid: ec536a7718376554185e4a856d5ae230,
+    type: 3}
+  m_PrefabInstance: {fileID: 1669099466}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42844a4fccbd54746b90cade4ff70f73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2120274519
 GameObject:
   m_ObjectHideFlags: 0
@@ -1934,17 +1956,17 @@ PrefabInstance:
     - target: {fileID: 3252190489784569879, guid: d39c09b5b7f88a3439115b7b7df2d7fe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.66
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 3252190489784569879, guid: d39c09b5b7f88a3439115b7b7df2d7fe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 58.54
+      value: 53.84
       objectReference: {fileID: 0}
     - target: {fileID: 3252190489784569879, guid: d39c09b5b7f88a3439115b7b7df2d7fe,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.98
+      value: -8.75
       objectReference: {fileID: 0}
     - target: {fileID: 3252190489784569879, guid: d39c09b5b7f88a3439115b7b7df2d7fe,
         type: 3}
