@@ -654,25 +654,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 149578741}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &712672253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 712672245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7531567e18e3ae24ebe7b99a2a1d2fcb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnValues: {x: 30, y: 10, z: 30}
-  myPrefab:
-  - {fileID: 275970410746737351, guid: bcb43139e4282dc4198dcb4d61083d92, type: 3}
-  NumsForEachPrefab: 0a000000
-  player: {fileID: 0}
-  timeToInit: 3
-  radius: 30
 --- !u!114 &712672254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1425,12 +1406,12 @@ PrefabInstance:
     - target: {fileID: 7623922970440088689, guid: b1cd939ea260d6246b302eed0a415c8d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.672001
+      value: 83.8
       objectReference: {fileID: 0}
     - target: {fileID: 7623922970440088689, guid: b1cd939ea260d6246b302eed0a415c8d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 184.4
+      value: -54
       objectReference: {fileID: 0}
     - target: {fileID: 7623922970440088689, guid: b1cd939ea260d6246b302eed0a415c8d,
         type: 3}
