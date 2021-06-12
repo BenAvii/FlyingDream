@@ -292,7 +292,7 @@ PrefabInstance:
     - target: {fileID: 7817435095423397869, guid: bc8cfa6f3ca961e44a60ab75a006800e,
         type: 3}
       propertyPath: m_Radius
-      value: 0.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7817435095423397869, guid: bc8cfa6f3ca961e44a60ab75a006800e,
         type: 3}
@@ -303,6 +303,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7817435095423397869, guid: bc8cfa6f3ca961e44a60ab75a006800e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7817435095423397870, guid: bc8cfa6f3ca961e44a60ab75a006800e,
         type: 3}
